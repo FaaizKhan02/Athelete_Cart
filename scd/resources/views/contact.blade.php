@@ -38,9 +38,55 @@
             border-radius: 5px;
         }
         
+        /* FIX: Added these styles to prevent content from going out of box */
+        .contact-info, .contact-form {
+            min-width: 0; /* Prevents grid overflow */
+            overflow: hidden; /* Contains content */
+        }
+        
+        .info-item {
+            word-wrap: break-word;
+            overflow-wrap: break-word;
+            max-width: 100%;
+        }
+        
+        .info-item p1 {
+            display: block;
+            word-break: break-word;
+            white-space: normal;
+            max-width: 100%;
+            overflow: hidden;
+        }
+        
+        .info-item p, .info-item p1 {
+            word-break: break-word;
+            overflow-wrap: break-word;
+        }
+        
         @media (max-width: 768px) {
             .contact-grid {
                 grid-template-columns: 1fr;
+            }
+            
+            /* Additional mobile fixes */
+            .contact-info, .contact-form {
+                padding: 20px 15px;
+            }
+            
+            .info-item {
+                margin: 15px 0;
+                padding: 12px;
+            }
+        }
+        
+        /* Extra small screens */
+        @media (max-width: 480px) {
+            .contact-info, .contact-form {
+                padding: 15px 10px;
+            }
+            
+            .info-item p1, .info-item p {
+                word-break: break-all;
             }
         }
     </style>
@@ -73,7 +119,7 @@
                     
                     <div class="info-item">
                         <h4>📧 Email Address</h4>
-                        <p>support@athletecart.com<br>sales@athletecart.com</p>
+                        <p1>support@athletecart.com<br>sales@athletecart.com</p1>
                     </div>
                     
                     <div class="info-item">

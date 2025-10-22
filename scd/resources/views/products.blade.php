@@ -181,7 +181,7 @@
 </head>
 <body>
     <div class="header">
-        <h1>Athlete Cart</h1>
+        <h1>🏏Athlete Cart</h1>
         <p>Premium Cricket Equipment</p>
     </div>
 
@@ -236,7 +236,7 @@
                     <h3>CA Cricket Bat</h3>
                     <p class="brand">English Willow</p>
                     <p class="description">Premium English willow bat with perfect balance and powerful stroke play capability. Handcrafted for professional players with superior grain structure.</p>
-                    <p class="price">₹72,999</p>
+                    <p class="price">72,999</p>
                     <div class="quantity-controls">
                         <button class="qty-btn">-</button>
                         <span class="quantity">1</span>
@@ -252,7 +252,7 @@
                     <h3>Kookaburra Ball</h3>
                     <p class="brand">Tournament Grade</p>
                     <p class="description">Professional grade cricket ball with excellent seam and swing characteristics. Used in international matches with superior durability.</p>
-                    <p class="price">₹1,899</p>
+                    <p class="price">1,899</p>
                     <div class="quantity-controls">
                         <button class="qty-btn">-</button>
                         <span class="quantity">1</span>
@@ -268,7 +268,7 @@
                     <h3>CA Gloves</h3>
                     <p class="brand">Professional Series</p>
                     <p class="description">High-quality batting gloves with superior grip and palm protection. Ventilated design for comfort during long innings.</p>
-                    <p class="price">₹19,499</p>
+                    <p class="price">19,499</p>
                     <div class="quantity-controls">
                         <button class="qty-btn">-</button>
                         <span class="quantity">1</span>
@@ -284,7 +284,7 @@
                     <h3>SS Helmet</h3>
                     <p class="brand">Safety Certified</p>
                     <p class="description">Lightweight helmet with high-impact resistance and comfortable fit. Meets international safety standards with enhanced ventilation.</p>
-                    <p class="price">₹51,799</p>
+                    <p class="price">51,799</p>
                     <div class="quantity-controls">
                         <button class="qty-btn">-</button>
                         <span class="quantity">1</span>
@@ -300,7 +300,7 @@
                     <h3>Leg Pads</h3>
                     <p class="brand">SG Professional</p>
                     <p class="description">Professional leg guards with maximum protection and lightweight design. Ideal for long innings with comfortable straps.</p>
-                    <p class="price">₹20,199</p>
+                    <p class="price">20,199</p>
                     <div class="quantity-controls">
                         <button class="qty-btn">-</button>
                         <span class="quantity">1</span>
@@ -316,7 +316,7 @@
                     <h3>Cricket Shoes</h3>
                     <p class="brand">Adidas Performance</p>
                     <p class="description">Spiked cricket shoes with excellent grip and ankle support for all conditions. Lightweight and durable with breathable material.</p>
-                    <p class="price">₹20,999</p>
+                    <p class="price">20,999</p>
                     <div class="quantity-controls">
                         <button class="qty-btn">-</button>
                         <span class="quantity">1</span>
@@ -325,7 +325,6 @@
                     <button class="btn">Add to Cart</button>
                 </div>
 
-                <!-- You can add the rest of the product cards similarly with correct images -->
             </div>
         </div>
     </div>

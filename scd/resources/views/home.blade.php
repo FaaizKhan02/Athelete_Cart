@@ -135,7 +135,7 @@
                 <div class="feature-box">
                     <div class="feature-icon">🚚</div>
                     <h3>Free Shipping</h3>
-                    <p>On orders above ₹5000</p>
+                    <p>On orders above 5000</p>
                 </div>
                 <div class="feature-box">
                     <div class="feature-icon">🔒</div>
@@ -158,21 +158,21 @@
                         <div class="product-icon">🏏</div>
                         <h3 class="product-name">Cricket Bat</h3>
                         <p style="color: #666;">English Willow</p>
-                        <p class="product-price">On Average : 72,999</p>
+                        <p class="product-price">On Average  72,999</p>
                         <a href="/cart" class="btn">Add to Cart</a>
                     </div>
                     <div class="product-card">
                         <div class="product-icon">⚪</div>
                         <h3 class="product-name">Season Ball</h3>
                         <p style="color: #666;">Tournament Grade</p>
-                        <p class="product-price">On Average : 9999</p>
+                        <p class="product-price">On Average  9999</p>
                         <a href="/cart" class="btn">Add to Cart</a>
                     </div>
                     <div class="product-card">
                         <div class="product-icon">🧤</div>
                         <h3 class="product-name">Gloves</h3>
                         <p style="color: #666;">Professional Series</p>
-                        <p class="product-price">On Average : 10,499</p>
+                        <p class="product-price">On Average  10,499</p>
                         <a href="/cart" class="btn">Add to Cart</a>
                     </div>
                 </div>
