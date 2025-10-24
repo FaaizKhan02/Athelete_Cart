@@ -4,28 +4,11 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Athlete Cart - Premium Cricket Equipment</title>
-
-  <!-- ✅ Bootstrap CSS -->
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
-
-
 </head>
 <body>
 
-  <!-- ✅ Header -->
-  <header class="header">
-    <div class="container d-flex justify-content-between align-items-center flex-wrap text-center text-md-start">
-      <div class="logo">
-        <h1 class="h3 mb-0">Athlete Cart</h1>
-        <small>Premium Cricket Equipment</small>
-      </div>
-      <div class="cart-icon mt-2 mt-md-0">
-        🛒 Cart
-      </div>
-    </div>
-  </header>
 
-  <!-- ✅ Navigation -->
+  <!--Navigation -->
   <nav class="navbar navbar-expand-lg navbar-custom">
     <div class="container">
       <a class="navbar-brand text-white fw-bold" href="#">Home</a>
@@ -43,19 +26,16 @@
     </div>
   </nav>
 
-  <!-- ✅ Main Content -->
+  <!--Main Content -->
   <main class="container my-5">
     @yield('content')
   </main>
 
-  <!-- ✅ Footer -->
+  <!--Footer -->
   <footer class="footer">
     <div class="container">
       <p class="mb-0">© 2025 Athlete Cart. All rights reserved.</p>
     </div>
   </footer>
-
-  <!-- ✅ Bootstrap JS -->
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
