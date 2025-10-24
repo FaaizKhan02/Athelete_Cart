@@ -110,6 +110,7 @@
     </style>
 </head>
 <body>
+
     <div class="header">
         <h1>🏏 Athlete Cart</h1>
         <p>Premium Cricket Equipment</p>

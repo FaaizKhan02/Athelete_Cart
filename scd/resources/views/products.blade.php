@@ -196,7 +196,7 @@
         <div class="content">
             <h2>Our Products</h2>
             
-            <!-- Custom Kit Builder -->
+         
             <div class="custom-kit">
                 <h3>Build Your Custom Kit</h3>
                 <p>Mix and match products from different brands</p>
@@ -226,7 +226,6 @@
                 </div>
             </div>
 
-            <!-- Products Grid -->
             <div class="products-grid">
 
                 <div class="product-card">

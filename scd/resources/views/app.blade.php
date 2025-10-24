@@ -1,44 +1,61 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Athlete Cart - Premium Cricket Equipment</title>
-    <style>
-        * { margin: 0; padding: 0; box-sizing: border-box; }
-        body { font-family: Arial, sans-serif; line-height: 1.6; color: #333; background: #f4f4f4; }
-        .container { width: 90%; max-width: 1200px; margin: 0 auto; padding: 0 15px; }
-        
-        /* Header */
-        .header { background: #2c3e50; color: white; padding: 1rem 0; }
-        .header .container { display: flex; justify-content: space-between; align-items: center; }
-        .logo h1 { font-size: 1.8rem; margin-bottom: 0.2rem; }
-        .cart-icon { background: #e74c3c; padding: 0.5rem 1rem; border-radius: 5px; }
-        
-        /* Navigation */
-        .navbar { background: #34495e; padding: 1rem 0; }
-        .nav-menu { list-style: none; display: flex; gap: 2rem; }
-        .nav-menu a { color: white; text-decoration: none; padding: 0.5rem 1rem; border-radius: 3px; }
-        .nav-menu a:hover { background: #2c3e50; }
-        
-        /* Buttons */
-        .btn { background: #e74c3c; color: white; padding: 0.8rem 1.5rem; border: none; border-radius: 5px; text-decoration: none; display: inline-block; }
-        
-        /* Main Content */
-        .main-content { min-height: 70vh; padding: 2rem 0; }
-        
-        /* Footer */
-        .footer { background: #2c3e50; color: white; text-align: center; padding: 2rem 0; margin-top: 3rem; }
-    </style>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Athlete Cart - Premium Cricket Equipment</title>
+
+  <!-- ✅ Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+
+
 </head>
 <body>
-    @include('partials.header')
-    @include('partials.navigation')
-    
-    <main class="main-content">
-        @yield('content')
-    </main>
-    
-    @include('partials.footer')
+
+  <!-- ✅ Header -->
+  <header class="header">
+    <div class="container d-flex justify-content-between align-items-center flex-wrap text-center text-md-start">
+      <div class="logo">
+        <h1 class="h3 mb-0">Athlete Cart</h1>
+        <small>Premium Cricket Equipment</small>
+      </div>
+      <div class="cart-icon mt-2 mt-md-0">
+        🛒 Cart
+      </div>
+    </div>
+  </header>
+
+  <!-- ✅ Navigation -->
+  <nav class="navbar navbar-expand-lg navbar-custom">
+    <div class="container">
+      <a class="navbar-brand text-white fw-bold" href="#">Home</a>
+      <button class="navbar-toggler bg-light" type="button" data-bs-toggle="collapse" data-bs-target="#navMenu">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse justify-content-end" id="navMenu">
+        <ul class="navbar-nav">
+          <li class="nav-item"><a class="nav-link" href="#">Shop</a></li>
+          <li class="nav-item"><a class="nav-link" href="#">About</a></li>
+          <li class="nav-item"><a class="nav-link" href="#">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- ✅ Main Content -->
+  <main class="container my-5">
+    @yield('content')
+  </main>
+
+  <!-- ✅ Footer -->
+  <footer class="footer">
+    <div class="container">
+      <p class="mb-0">© 2025 Athlete Cart. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <!-- ✅ Bootstrap JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
