@@ -27,6 +27,9 @@ Route::get('/checkout', function () {
 Route::get('/contact', function () {
     return view('contact');
 });
+Route::get('/thankyou', function () {
+    return view('thankyou');
+});
 
 
 // Frontend product listing & detail
