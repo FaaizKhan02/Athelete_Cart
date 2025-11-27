@@ -17,6 +17,7 @@
         <a href="{{ url('/products') }}">Products</a>
         <a href="{{ url('/contact') }}">Contact</a>
         <a href="{{ url('/cart') }}">Cart</a>
+        <a href="{{ url('/admin/products') }}">Admin Pannel</a>
     </div>
 
     <div class="container">
