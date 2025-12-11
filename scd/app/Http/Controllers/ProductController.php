@@ -27,6 +27,7 @@ class ProductController extends Controller
         return view('admin.products.index', compact('products'));
     }
 
+    
     // ADMIN: show create form
     public function create()
     {
