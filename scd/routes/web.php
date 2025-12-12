@@ -44,7 +44,6 @@ Route::prefix('admin')->group(function () {
 });
 
 
-
 // Product routes
 Route::get('/products', [ProductController::class, 'index'])->name('products.index');
 Route::get('/products/search', [ProductController::class, 'search'])->name('products.search');
@@ -78,9 +77,9 @@ Route::prefix('admin')->group(function () {
             Route::put('/products/{product}', [ProductController::class, 'update'])->name('admin.products.update');
             Route::delete('/products/{product}', [ProductController::class, 'destroy'])->name('admin.products.destroy');
 
-        Route::get('/admin/jerseys', [JerseyController::class, 'admin'])->name('jerseys.admin');
+        Route::get('/jerseys', [JerseyController::class, 'admin'])->name('jerseys.admin');
         Route::get('/jerseys/{jersey}', [JerseyController::class, 'show'])->name('jerseys.show');
-        Route::post('/jerseys', [JerseyController::class, 'store'])->name('jerseys.store');
+        Route::post('/jerseys5', [JerseyController::class, 'store'])->name('jerseys.store');
         Route::put('/jerseys/{jersey}', [JerseyController::class, 'update'])->name('jerseys.update');
         Route::delete('/jerseys/{jersey}', [JerseyController::class, 'destroy'])->name('jerseys.destroy');
         Route::get('/jerseys/search', [JerseyController::class, 'search'])->name('jerseys.search');
