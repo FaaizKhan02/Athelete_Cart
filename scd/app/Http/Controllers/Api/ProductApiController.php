@@ -24,9 +24,11 @@ class ProductApiController extends Controller
     public function store(Request $request)
     {
         $validated = $request->validate([
-            'name' => 'required|string',
-            'price' => 'required|numeric',
-            'description' => 'nullable|string'
+            'name' => 'required|string|max:255',
+            'brand' => 'required|string|max:255',
+            'description' => 'required|string',
+            'price' => 'required|numeric|min:0',
+            'image' => 'required|url',
         ]);
 
         $product = Product::create($validated);
@@ -41,9 +43,11 @@ class ProductApiController extends Controller
     public function update(Request $request, Product $product)
     {
         $validated = $request->validate([
-            'name' => 'sometimes|string',
-            'price' => 'sometimes|numeric',
-            'description' => 'nullable|string'
+              'name' => 'required|string|max:255',
+            'brand' => 'required|string|max:255',
+            'description' => 'required|string',
+            'price' => 'required|numeric|min:0',
+            'image' => 'required|url',
         ]);
 
         $product->update($validated);
